@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>9</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.0-preview1</PackageVersion>
+        <Title>IcyLight.Core</Title>
+        <Authors>amelkor</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Text.Json" Version="5.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="IcyLight.Core.csproj.DotSettings" />
+    </ItemGroup>
+
+</Project>
