@@ -91,7 +91,7 @@ internal static class Program
 
             if (string.IsNullOrEmpty(options.PackageInfoSavePath))
             {
-                options.PackageInfoSavePath = $"{options.OutPath}\\packageInfo.json";
+                options.PackageInfoSavePath = $"{options.OutPath}";
                 _log.Warning($"Output path for packageInfo was not provided. Using default path {options.PackageInfoSavePath}");
             }
 

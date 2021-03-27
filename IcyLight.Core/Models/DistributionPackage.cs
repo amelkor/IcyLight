@@ -3,22 +3,21 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace IcyLight.Core
 {
     [Serializable]
     public class DistributionPackage
     {
-        public string ApplicationId { get; set; }
+        public string ApplicationId { get; set; } = "3D930DC8-197F-4B4A-BC9E-11F02ABD71BB";
         public string ApplicationTitle { get; set; }
         public string ApplicationDescription { get; set; }
-        public string ApplicationVersion { get; set; }
+        public string ApplicationVersion { get; set; } = "1.0.0-preview1";
 
         public long PackageSize { get; set; }
 
         public PackageType PackageType { get; set; }
-        public List<DistributionFile> DistributionFiles { get; set; }
+        public List<DistributionFile> DistributionFiles { get; set; } = new();
 
 
         private const string EXT = "dist";
