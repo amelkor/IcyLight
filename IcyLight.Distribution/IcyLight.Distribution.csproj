@@ -6,7 +6,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>IcyLight.Distribution</Title>
         <Authors>amelkor</Authors>
-        <PackageVersion>1.0.0-preview1</PackageVersion>
+        <PackageVersion>1.0.0-preview2</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>

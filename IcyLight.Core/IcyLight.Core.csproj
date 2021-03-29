@@ -4,7 +4,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>9</LangVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.0-preview1</PackageVersion>
+        <PackageVersion>1.0.0-preview2</PackageVersion>
         <Title>IcyLight.Core</Title>
         <Authors>amelkor</Authors>
     </PropertyGroup>

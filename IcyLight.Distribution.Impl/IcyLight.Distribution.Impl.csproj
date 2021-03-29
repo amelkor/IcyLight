@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>9</LangVersion>
-        <PackageVersion>1.0.0-preview1</PackageVersion>
+        <PackageVersion>1.0.0-preview2</PackageVersion>
         <Title>IcyLight.Distribution.Impl</Title>
         <Description>amelkor</Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

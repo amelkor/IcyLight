@@ -4,7 +4,7 @@
 
 namespace IcyLightPacker.Verbs
 {
-    [Verb("keys", HelpText = "Create new ED25519 keys")]
+    [Verb("--keys", HelpText = "Create new ED25519 keys")]
     public class KeyOptions
     {
         [Option('o', "out-path")]
