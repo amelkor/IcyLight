@@ -1,5 +1,6 @@
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](!LICENSE.md)
-# IcyLight software distribution tool
+# IcyLight software distribution tool (PoC preview)
+This repository is a Proof of Concept
 
 ## Description
 IcyLight is a set of tools to bring core elements for application installation and update.
